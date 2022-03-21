@@ -1,0 +1,184 @@
+@charset "UTF-8";
+* {
+  margin:0;
+  padding:0;
+}
+dd{
+  margin-inline-start:0;
+}
+img{
+  width:100%;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color:#fff;
+}
+.wrap{
+width:1260px;
+margin:0 auto;
+}
+body{
+  font-family: 'Headline R',arial, sans-serif;
+}
+/* 헤더 스타일 */
+header{
+  width:100%;
+  height:53px;
+  position: fixed;
+  top:0;
+  left:0;
+  background: #eb7b89;
+  color:#fff;
+  z-index:1000;
+}
+h1{
+  float:left;
+  font-size: 0.92rem;
+  line-height: 53px;
+  padding-left:20px;
+}
+h1>span{
+  font-style: italic;
+  font-size: 1.67rem;
+}
+.gnb{}
+.gnb>ul{
+  display: flex;
+  vertical-align: center;
+  justify-content: center;
+  text-align: center;
+}
+.gnb>ul>li{
+  padding-left:145px;
+  line-height:53px;
+}
+
+/* 섹션01 스타일 */
+.section01>h2{
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+.section01>div.mainPicture{
+  background:no-repeat 0 0 url(../images/main/main.png);
+  background-size: cover;
+  height:580px;
+}
+
+/* 섹션02 스타일 */
+.section02{
+  padding-top:200px;
+  position: relative;
+}
+.section02>h2{
+  font-size: 3rem;
+  line-height: 0;
+  position:absolute;
+  left:105px;
+  top:200px;
+}
+.section02ImgBox{
+  width:50%;
+  height:683px;
+  box-sizing: border-box;
+  background:#eb7b89;
+  padding-left:155px;
+  padding-top:207px;
+  float:left;
+}
+.section02Img{
+float:right;
+}
+.information{
+  width:50%;
+  box-sizing: border-box;
+  float:right;
+  font-size:1.58rem;
+  padding-left:40px;
+}
+.info{
+  padding-bottom:100px;
+}
+.info>dt{
+  padding-bottom:20px;
+}
+.tec{}
+.tecText{
+  padding-top:50px;
+}
+/* 섹션03 스타일 */
+.section03{
+  clear:both;
+  padding-top:200px;
+  position: relative;
+}
+.section03>h2{
+  font-size: 3rem;
+  line-height: 0;
+  position:absolute;
+  right:105px;
+  top:200px;
+}
+.section03>ul{
+    position: relative;
+}
+.section03>ul>li{
+height:250px;
+}
+.mainSkill{
+  position:absolute;
+  top:100px;
+  right:105px;
+  box-sizing: border-box;
+}
+.mainSkill>dt{
+  font-size:2rem;
+  text-align: left;
+  padding-bottom: 30px;
+}
+.mainSkill>dd{
+  width:525px;
+}
+.mainSkill>dd>ul{
+  display:flex;
+  justify-content:right;
+  vertical-align: center;
+  padding-right:30px;
+}
+.mainSkill>dd>ul>li{
+  width:115px;
+  padding-left:30px;
+}
+
+.studyingSkill{
+  position: absolute;
+  bottom:0;
+  left:0;
+  box-sizing: border-box;
+}
+.studyingSkill>dt{
+  font-size:2rem;
+  text-align: right;
+  padding-bottom:30px;
+}
+.studyingSkill>dd{
+  width:525px;
+}
+.studyingSkill>dd>ul{
+  display:flex;
+  justify-content:left;
+  vertical-align: center;
+  padding-left:30px;
+}
+.studyingSkill>dd>ul>li{
+  width:115px;
+  padding-left:30px;
+}
+/* 섹션04 스타일 */
+.section04{
+  clear:both;
+  padding-top:200px;
+}
